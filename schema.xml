@@ -3,14 +3,19 @@
     <xs:element name="nyTimesBestSellers">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="book" minOccurs="0" maxOccurs="unbounded"/>
-                <xs:element name="title" type="xs:string"/>
-                <xs:element name="author"  minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
-                <xs:element name="pages" type="xs:positiveInteger"/>
-                <xs:element name="publicationDate" type="xs:date"/>
-                <xs:element name="publisher" type="xs:string"/>
-                <xs:element name="listPrice" type="xs:decimal"/>
-                <xs:element name="genre" type="xs:string"/>
+                <xs:element name="book" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="author"  minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                            <xs:element name="pages" type="xs:positiveInteger"/>
+                            <xs:element name="publicationDate" type="xs:date"/>
+                            <xs:element name="publisher" type="xs:string"/>
+                            <xs:element name="listPrice" type="xs:decimal"/>
+                            <xs:element name="genre" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
