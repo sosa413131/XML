@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT nyTimesBestSellers (book+)>
-<!ELEMENT book (title, author, pages, publicationDate, publisher, listPrice, genre)>
+<!ELEMENT nyTimesBestSellers (book*)>
+<!ELEMENT book (title, author+, pages, publicationDate, publisher, listPrice, genre)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT pages (#PCDATA)>
