@@ -1,1 +1,1 @@
-In this repo you will find an example of an XML file. this sample file contains the top 5 ny times bestsellers for the week of March 20, 2022. 
+In this repo you will find an example of an XML file and code that will validate whether the XML aligns with a schema file and a DTD or data type definition file. This xml file contains the top 5 ny times bestsellers for the week of March 20, 2022. To run the file open a bash/zsh terminal and navigate to the file. Once you are in the repo folder run the file with the command python dom_parser_dtd.py.
