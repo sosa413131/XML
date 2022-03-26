@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nyTimesBestSellers>
+<!-- This XML document describes thse NY Times best sellers list as of March 20. 2022 -->
+
+    <book>
+        <title>Run, Rose, Run</title>
+        <author>Dolly Parton</author>
+        <author>James Patterson</author>
+        <pages>425</pages>
+        <publicationDate>2022-03-07</publicationDate>
+        <publisher>Little Brown and Company</publisher>
+        <listPrice>30.00</listPrice>
+        <genre>Crime Thriller</genre>
+    </book>
+
+    <book>
+        <title>Shadows Reel</title>
+        <author>C. J. Box</author>
+        <pages>366</pages>
+        <publicationDate>2022-03-08</publicationDate>
+        <publisher>G.P. Putnam&apos;s Sons</publisher>
+        <listPrice>14.99</listPrice>
+        <genre>Murder Thriller</genre>
+    </book>
+
+    <book>
+        <title>It Ends With Us</title>
+        <author>Colleen Hoover</author>
+        <pages>381</pages>
+        <publicationDate>2016-08-02</publicationDate>
+        <publisher>Atria Books</publisher>
+        <listPrice>11.99</listPrice>
+        <genre>Humor</genre>
+    </book>
+
+    <book>
+        <title>High Stakes</title>
+        <author>Danielle Steele</author>
+        <author></author>
+        <pages>260</pages>
+        <publicationDate>2022-03-08</publicationDate>
+        <publisher>Delacorte Press</publisher>
+        <listPrice>14.99</listPrice>
+        <genre>Fiction</genre>
+    </book>
+
+    <book>
+        <title>Verity</title>
+        <author>Colleen Hoover</author>
+        <pages>333</pages>
+        <publicationDate>2021-10-05</publicationDate>
+        <publisher>Grand Central Publishing</publisher>
+        <listPrice>11.99</listPrice>
+        <genre>Romance</genre>
+    </book>
+</nyTimesBestSellers>
